@@ -18,13 +18,14 @@ class User(Base):
 class Course(Base):
     __tablename__ = "courses"
 
-    id = Column(Integer, primary_key=True)
-    title = Column(String)
-    description = Column(String)
-    price = Column(Float)
+    id = Column(Integer, primary_key=True, index=True)
+    title = Column(String, nullable=False)
+    description = Column(String, nullable=False)
+    price = Column(Float, default=0)
     image = Column(String, nullable=True)
 
     subscriptions = relationship("Subscription", back_populates="course")
+
 
 
 class Subscription(Base):

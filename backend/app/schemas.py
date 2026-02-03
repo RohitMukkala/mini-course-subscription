@@ -28,3 +28,19 @@ class UserOut(BaseModel):
 class Token(BaseModel):
     access_token: str
     token_type: str = "bearer"
+
+
+# -------- Course Schemas --------
+
+class CourseBase(BaseModel):
+    title: str
+    description: str
+    price: float
+    image: str | None = None
+
+
+class CourseOut(CourseBase):
+    id: int
+
+    class Config:
+        from_attributes = True
