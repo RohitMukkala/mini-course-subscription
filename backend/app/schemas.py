@@ -44,3 +44,21 @@ class CourseOut(CourseBase):
 
     class Config:
         from_attributes = True
+
+
+# -------- Subscription Schemas --------
+
+class SubscribeRequest(BaseModel):
+    course_id: int
+    promo_code: str | None = None
+
+
+class MyCourseOut(BaseModel):
+    id: int
+    title: str
+    price_paid: float
+    subscribed_at: str
+    image: str | None
+
+    class Config:
+        from_attributes = True
