@@ -1,16 +1,47 @@
-# Environment files
+#################################
+# ENV FILES (Secrets)
+#################################
 .env
 .env.*
+backend/.env
 
-# Python
+#################################
+# Python / Backend
+#################################
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
 venv/
-.env/
+backend/venv/
+.pytest_cache/
+.mypy_cache/
 
-# Node
+#################################
+# Node / React / Frontend
+#################################
 node_modules/
+frontend/node_modules/
 
-# IDE
+dist/
+frontend/dist/
+
+.vite/
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+#################################
+# Build / Coverage
+#################################
+coverage/
+build/
+
+#################################
+# OS / IDE
+#################################
 .vscode/
 .idea/
+.DS_Store
+Thumbs.db
