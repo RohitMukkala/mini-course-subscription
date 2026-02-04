@@ -21,15 +21,10 @@ export default function App() {
       <Route path="/login" element={<Login />} />
       <Route path="/signup" element={<Signup />} />
 
-      <Route
-        path="/"
-        element={
-          <PrivateRoute>
-            <Home />
-          </PrivateRoute>
-        }
-      />
+      {/* Public route - courses can be browsed without login */}
+      <Route path="/" element={<Home />} />
 
+      {/* Private routes - require login for enrollment and access */}
       <Route
         path="/courses/:id"
         element={
