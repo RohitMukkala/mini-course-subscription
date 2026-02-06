@@ -4,11 +4,9 @@ This is a full‑stack **course subscription platform** built as a portfolio pro
 
 ## Live demo
 
-- **Live frontend**: `[https://your-frontend-url.vercel.app]`
-- **Live backend API**: `[https://your-backend-url.onrender.com]`
-- **API docs (Swagger)**: `[https://your-backend-url.onrender.com/docs]`
+- **Live frontend**: `mini-course-subscription-plum.vercel.app`
+- **Live backend API**: `https://mini-course-subscription-ohbd.onrender.com`
 
-> Replace the URLs above with your actual deployed links.
 
 ## Tech stack
 
@@ -120,7 +118,6 @@ This is a full‑stack **course subscription platform** built as a portfolio pro
 └── README.md               # Project documentation
 ```
 
-> The exact structure may vary slightly from this overview.
 
 ## Pages & screenshots (placeholders)
 
@@ -366,10 +363,8 @@ POST /api/subscriptions
 
 ## Author
 
-- **Name**: Your Name
-- **GitHub**: `[https://github.com/your-username]`
-- **LinkedIn**: `[https://www.linkedin.com/in/your-profile/]`
-- **Email**: `you@example.com`
+- **Name**: Rohit Mukkala
+- **Email**: `rohitmukkala@gmail.com`
 
 If you have feedback or questions about this project, feel free to reach out or open an issue in the repository.
 "# mini-course-subscription" 
