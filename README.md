@@ -138,19 +138,19 @@ This is a full‑stack **course subscription platform** built as a portfolio pro
 
 - **Landing page**
 
-  `![Landing page](./home.png)`
+  ![Landing page](./home.png)
 
 - **Course details**
 
-  `![Course details](./course.png)`
+  ![Course details](./course.png)
 
 - **Signup / Login**
 
-  `![Auth pages](./login.png)`
+  ![Auth pages](./login.png)
 
 - **My Courses dashboard**
 
-  `![My Courses](./dashboard.png)`
+  ![My Courses](./dashboard.png)
 
 ## Environment variables
 
