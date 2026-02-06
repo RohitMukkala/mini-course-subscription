@@ -139,19 +139,19 @@ Replace the image paths with your actual screenshots.
 
 - **Landing page**
 
-  `![Landing page](./docs/screenshots/landing.png)`
+  `![Landing page](./landing.png)`
 
 - **Course details**
 
-  `![Course details](./docs/screenshots/course-details.png)`
+  `![Course details](./course.png)`
 
 - **Signup / Login**
 
-  `![Auth pages](./docs/screenshots/auth.png)`
+  `![Auth pages](./login.png)`
 
 - **My Courses dashboard**
 
-  `![My Courses](./docs/screenshots/my-courses.png)`
+  `![My Courses](./dashboard.png)`
 
 ## Environment variables
 
