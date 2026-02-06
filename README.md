@@ -135,11 +135,10 @@ This is a full‑stack **course subscription platform** built as a portfolio pro
 
 ### Screenshot placeholders
 
-Replace the image paths with your actual screenshots.
 
 - **Landing page**
 
-  `![Landing page](./landing.png)`
+  `![Landing page](./home.png)`
 
 - **Course details**
 
